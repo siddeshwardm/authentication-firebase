@@ -17,6 +17,7 @@ const signin = () => {
 
   return (
     <div>
+      <h1>signIn page</h1>
     <label>Email</label>
     <input onChange={(e)=> setEmail(e.target.value)} value={email} type="email" />
     <br />
